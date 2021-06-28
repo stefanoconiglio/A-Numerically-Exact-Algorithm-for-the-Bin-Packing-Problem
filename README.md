@@ -6,6 +6,8 @@ In the following, we report the names of the instances for which a certified dua
 
 - all 50 instances with 201 items and all 50 instances with 402 items, and all 50 instances with 600 items (also see 201-402-600.txt)
 
+(K2 = 10^-3 for 201 and 402; K2 = 10^-5 for 600)
+
 ![image](https://user-images.githubusercontent.com/33290924/123682153-8b36d600-d842-11eb-8154-e84c839faba6.png)
 
 
