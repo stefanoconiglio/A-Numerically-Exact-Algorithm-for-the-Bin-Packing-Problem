@@ -12,8 +12,9 @@ In the following, we report the names of the instances for which a certified dua
 The results are obtained by setting:
 - K1 = 1E-13 (K1  corresponds to the precision that is used in the label-setting algorithm that solves the pricing problem as well as in the solver---SOPLEX---that is used for reoptimizing each LP relaxation)
 - K2 = 1E-03 for the instances with 201, 402, and 800 items and K2 = 1E-05 for the instances with 600 and 1002 items (K2 coincides with the reduced cost value after which the code swithces from using Gurobi as LP solver to SOPLEX)
+						
+![image](https://user-images.githubusercontent.com/33290924/123709277-b7634e80-d864-11eb-87bb-0c92a0253906.png)
 
-![image](https://user-images.githubusercontent.com/33290924/123688584-18c9f400-d84a-11eb-8eea-68c957b736a4.png)
 
 
 
