@@ -8,7 +8,8 @@ In the following, we report the names of the instances for which a certified dua
 
 (K2 = 10^-3 for 201 and 402; K2 = 10^-5 for 600)
 
-![image](https://user-images.githubusercontent.com/33290924/123682153-8b36d600-d842-11eb-8154-e84c839faba6.png)
+![image](https://user-images.githubusercontent.com/33290924/123688584-18c9f400-d84a-11eb-8eea-68c957b736a4.png)
+
 
 
 
