@@ -2,7 +2,7 @@
 
 This page contains the online material of the paper entitled "A Numerically Exact Algorithm for the Bin Packing Problem" by R. Baldacci, S. Coniglio, J.F. Cordeau, and F. Furin. From it, the user can download the algorithm proposed in the paper and run it on the instances on which the experiments were conducted.
 
-It also reports certified dual solutions to the linear-programming (LP) relaxation of the set-partitioning formulation of the Bin Packing Problem  (BPP)---to so-called Fractional Bin Packing Problem (FBPP)---for the instances of the Augmeneted Non-IRUP (ANI) class.
+It also reports certified dual solutions to the linear-programming (LP) relaxation of the set-partitioning formulation of the Bin Packing Problem  (BPP)---to so-called Fractional Bin Packing Problem (FBPP)---for the instances of the Augmented Non-IRUP (ANI) class.
 
 ## BCCP algorithm
 
@@ -22,6 +22,8 @@ The included parameter file corresponds to the description of the algorithm give
 Delorme, M., Iori, M. and Martello, S., 2016. Bin packing and cutting stock problems: Mathematical models and exact algorithms. European Journal of Operational Research, 255(1), pp.1-20.
 
 More instances can be downloaded from the BPPLIB page at the url: https://site.unibo.it/operations-research/en/research/bpplib-a-bin-packing-problem-library.
+
+Detailed instance-by-instance results obtained with the BCCF run with the configuration used in the paper are contained in the file results.ods.
 
 
 # Rational infinite-precision dual solutions to the Fractional Bin Packing Problem (FBPP)
