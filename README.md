@@ -6,17 +6,18 @@ It also reports certified dual solutions to the linear-programming (LP) relaxati
 
 ## BCCP algorithm
 
-In order to compile the code (we used gcc version 13.1.0), access to the following packages is requered:
+In order to run the algorithm, access to gcc, CPLEX, Gurobi, and SOPLEX is needed. In order to obtain results comparable to those of the paper, the following versions are required:
+- gcc version 13.1.0
 - CPLEX version 12.9
 - Gurobi version 9.5.1
-- SOPLEX 5.0.1
+- SOPLEX 5.0.1.
 
-The code is compiled by
-1. running the command unzip BCCF.zip
-2. setting in Makefile_link CPX_LIB, GRB_LIB, and SOPLEXLIB to the local path of the three aforementioned packages
-3. running the command make -f Makefile_link
+The algorithm is set up by following these steps:
+1. run the command "unzip BCCF.zip"
+2. set in Makefile_link the environment variables CPX_LIB, GRB_LIB, and SOPLEXLIB to the local path of the three aforementioned packages
+3. run the command "make -f Makefile_link".
 
-One can test whether the code is running correctly by executing the script run_example.sh, which will run the BCCF algorithm on the (included) ANI instance 201_2500_NR_0.txt, using the included parameter file param_test_BPP-non-IRUP-2exp44.txt, which is the one that was used to run the algorithm in its best-performing configuration according to the paper.
+One can test whether the BCCF binary file this created is running correctly by executing the script run_example.sh, which will run the BCCF algorithm on the (included) ANI instance 201_2500_NR_0.txt, using the included parameter file param_test_BPP-non-IRUP-2exp44.txt, which is the one that was used to run the algorithm in its best-performing configuration according to the paper.
 
 The included parameter file corresponds to the description of the algorithm given in the paper, and is suitable for the solution of the ANI instances proposed in
 Delorme, M., Iori, M. and Martello, S., 2016. Bin packing and cutting stock problems: Mathematical models and exact algorithms. European Journal of Operational Research, 255(1), pp.1-20.
